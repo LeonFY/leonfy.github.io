@@ -1,5 +1,5 @@
 var book = document.getElementById("book");
-var pages = (book).getElementsBy("selection");
+var pages = (book).getElementsByTagName("selection");
 
 for (var i = 0, len = pages.length; i < len; i++) {
     pages[i].style.zIndex = len - i;

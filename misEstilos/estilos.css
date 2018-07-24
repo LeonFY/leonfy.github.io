@@ -1,7 +1,16 @@
-body{
-    background: image(horda);
+@font-face {
+    font-family: "champignonmedium";
+    src: url("champignon-webfont.woff2") format("woff2"),
+         url("champignon-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
 }
-#la wea fome{
-    align-content: center;
-    
+#horde{
+align-content: center;
+}
+#presentacion{
+    font-family:champignonmedium;
+    font-size: 200px;
+    color: red;
 }
