@@ -7,63 +7,60 @@
         <link rel="stylesheet" href="misEstilos/estilos.css">
     </head>
     <body>
-      <div id="book">
-        <canvas id="pageflip" width="950" height="380"></canvas>
-        <div id="pages">
-            <selection id="selection">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Conoceme</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Estudios<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="CV" download="cv Luis">Descargar CV</a>
-                        </li>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-                </selection>
-                  <selection>
-            <div id="horde" class="container">
-                <h1 id="presentacion"><i>Hola!</i> Soy Luis</h1>
-                <p id="p1">Soy una persona resposable, sociable, creativa, dinamico</p>
-                <p>Me gusta leer, la musica, la tecnlogia, pasar tiempo en familia o con amigos</p>
-                <p>Soy fan de la histoira, los mitos en particular, y la filosofia</p>
-                <h2 id="subt">Metas</h2>
-                <p>Me gustaria algún dia llegar a ser escritor, poder <b><i>explotar mi creatividad</i></b></p>
-                <p>Trabajar de programador seria una buena experiencia</p>
-                <h2>Estudios</h2>
-                <p>Egrese del bachillerato sociohumanistico (derecho)</p>
-                <p>Estudiante de Jóvenes a programar</p>
-                <p>Estudio Auxiliar de farmacia hospitalaria</p>
-                <h2>Experencias importantees</h2>
-                <p>Oficial postal en Tiempost 2012-2016</p> 
+      <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Inicio</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#subt">Metas</a>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sobre mi</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#presentacion">Yo</a>
+              <a class="dropdown-item" href="#two">Mis estudios y experiencias</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#three">Social</a>
+              <a class="dropdown-item" href="">JaP</a>
             </div>
-          </selection>
-            <selection>
+          </li>
+        </ul>
+      </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h1 id="presentacion"><i>Hola!</i> Soy Luis</h1>
+          <p id="p1">Soy una persona resposable, sociable, creativa, dinamico.
+              Me gusta leer, la musica, la tecnlogia, pasar tiempo en familia o con amigos.
+              Soy fan de la histoira, los mitos en particular, y la filosofia
+          </p>
+        <h4 id="subt">Metas</h4>
+        <p id="met">Me gustaria algún dia llegar a ser escritor, poder <b><i>explotar mi creatividad</i></b>.
+          Trabajar de programador seria una buena experiencia</p>
+        <h4 id="one">one</h4>
+        <p>...</p>
+        <h4 id="two">Estudios</h4>
+        <p>Egrese del bachillerato sociohumanistico (derecho)</p>
+        <p>Estudiante de Jóvenes a programar</p>
+        <p>Estudio Auxiliar de farmacia hospitalaria</p>
+        <h2>Experencias importantees</h2>
+        <p>Oficial postal en Tiempost 2012-2016</p> 
+        <h4 id="three">Social</h4>
+            <div id="jovapr">
+              <h2 id="jap">Jovenes a programar</h2>
+              <h3>¿por qué?</h3>
+              <p>Siempre me interreso la tecnologia, aunque nunca pense en algo relacionado con la programacion.
+                Jovenes a programar me parecio interesante, y una buena oportuidad para entrar en el mundo de la rogramación.
+              </p>
+              <h3>Mis espectativas</h3>
+              <p>Espero seguir aprendiendo y desarrollando, más alla de que consiga trabajar de esto o no, a pesar de que eso seria lo ideal
+              </p>
+            </div>
             <div class="container" id="datos">
             <footer>
               <p>Cel: 094075422</p>
               <p>Correo: lumapeba@hotmail.com</p>
-              <p>Edad: 25 años</p>
+              <p>Fecha de nacimiento: 11/05/1993</p>
             </footer>
-          </selection>
           </div>
-        </div>
-      </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="js/paginas.js"></script>
     </body>
 </html>

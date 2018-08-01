@@ -6,11 +6,44 @@
     font-style: normal;
 
 }
+@font-face{
+    font-family: "eutemia";
+    src: url("eutemia.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+} 
 #horde{
 align-content: center;
 }
+#perg1{
+    background-origin: url("imagenes/pergamino.png")
+}
 #presentacion{
     font-family:champignonmedium;
-    font-size: 200px;
+    font-size: 80px;
     color: red;
+    text-align: center;
+}
+#subt   {
+    font-family: "eutemia";
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    background-image: url("imagenes/paper.jpg")
+}
+@font-face{
+    font-family: "porcelai";
+    src: url("porcelai.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+#p1{
+    font-family: "porcelai";
+    font-size: 30px;
+    text-align: center;
+}
+#met{
+    text-align: center;
+    color: red;
+    
 }
