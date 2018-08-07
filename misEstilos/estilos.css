@@ -1,3 +1,6 @@
+body{
+    background-color: skyblue;
+}
 @font-face {
     font-family: "champignonmedium";
     src: url("champignon-webfont.woff2") format("woff2"),
@@ -15,21 +18,26 @@
 #horde{
 align-content: center;
 }
-#perg1{
-    background-origin: url("imagenes/pergamino.png")
-}
 #presentacion{
     font-family:champignonmedium;
     font-size: 80px;
-    color: red;
     text-align: center;
+}
+#fondo{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 140px, 270px;
+    background-size: 150%, 100%; 
+}
+#pick{
+    align-content: center;
 }
 #subt   {
     font-family: "eutemia";
-    font-size: 50px;
-    color: red;
+    font-size: 70px;
     text-align: center;
-    background-image: url("imagenes/paper.jpg")
+    background-image: url(imagenes/paper.jpg)
 }
 @font-face{
     font-family: "porcelai";
@@ -37,13 +45,121 @@ align-content: center;
     font-weight: normal;
     font-style: normal;
 }
-#p1{
-    font-family: "porcelai";
-    font-size: 30px;
+@font-face{
+    font-family: "free";
+    src: url("free.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.parr{
+    font-family: "eutenia";
+    font-size: 40px;
     text-align: center;
+}
+#lista{
+    font-family: "eutenia";
+    font-size: 40px;
+    text-align: center;
+}
+@font-face{
+    font-family: "selfish";
+    src: url("selfish.woff") format("woff");
+    font-weight: normal;
+    font-style: normal; 
 }
 #met{
     text-align: center;
-    color: red;
-    
+    font-family: "eutenia";
+    font-size: 40px;
+}
+#carouselExampleControls{
+    width: 800px;
+    height: 200px;  
+    align-content: center;
+}
+#foto2{
+    width: 400px;
+    height: 450px;
+}
+#foto3{
+    width: 400px;
+    height: 450px;
+}
+#one{
+    font-family: selsish;
+    text-align: center;
+    font-size: 100px;
+}
+#psocial{
+    text-align: center;
+}
+#foto4{
+    height: 450px;
+    width: 350px;
+}
+#jap{
+    text-align: center;
+    font-family: "porcelai";
+    font-size: 100px;
+}
+#why{
+    font-size: 80px;
+    text-align: center;
+    font-family: "porcelai";
+}
+p.jap{
+    font-family: "eutenia";
+    text-align: center;
+    font-size: 50px;    
+}
+footer{
+    padding: 20px;
+}
+#nav{
+    background-image: url("libro.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px, 70px;
+    background-size: 100%, 50%;
+}
+#exp{
+    font-family: "selfish";
+    font-size: 50px;
+    text-align: center;
+}   
+p.exp{
+    text-align: center; 
+}
+#wel{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+  
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+  
+.icon-bar a:hover {
+  background-color: #000;
+}
+  
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #bb0000;
+  color: white;
 }
