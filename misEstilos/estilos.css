@@ -1,6 +1,18 @@
 body{
     background-color: skyblue;
 }
+@font-face{
+    font-family: "BrockScript";
+    src: url("BrockScript.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "scriptin";
+    src: url("scriptin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;   
+}
 @font-face {
     font-family: "champignonmedium";
     src: url("champignon-webfont.woff2") format("woff2"),
@@ -67,36 +79,93 @@ align-content: center;
     font-style: normal; 
 }
 #met{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 270px;
+    background-size: 150%, 100%;
     text-align: center;
     font-family: "eutenia";
     font-size: 40px;
+}
+#car{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%;    
+}
+#study{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%;  
+}
+#jov{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%;  
+}
+#try{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%; 
+}
+#form{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%;
+}
+#form{
+    background-image: url("pergamino.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 140px, 370px;
+    background-size: 150%, 100%;
 }
 #carouselExampleControls{
     width: 800px;
     height: 200px;  
     align-content: center;
 }
+#foto1{
+    width: 300px;
+    height: 400px;
+}
 #foto2{
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
 }
 #foto3{
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
+}
+#foto4{
+    width: 300px;
+    height: 400px;
 }
 #one{
-    font-family: "selsish";
+    font-family: "scriptin";
     text-align: center;
     font-size: 90px;
 }
 #psocial{
+    color: black;
     font-family: "eutenia";
     font-size: 40px;
     text-align: center;
 }
-#foto4{
-    height: 450px;
-    width: 350px;
+#social2{
+    color: black;
+    font-family: "eutenia";
+    font-size: 40px;
 }
 #jap{
     text-align: center;
@@ -109,6 +178,7 @@ align-content: center;
     font-family: "porcelai";
 }
 p.jap{
+    color: black;
     font-family: "eutenia";
     text-align: center;
     font-size: 50px;    
@@ -121,6 +191,7 @@ footer{
     background-repeat: no-repeat;
     background-position: 0px, 70px;
     background-size: 100%, 50%;
+    
 }
 #exp{
     font-family: "selfish";
@@ -130,7 +201,7 @@ footer{
 p.exp{
     text-align: center; 
     font-family: "eutenia";
-    font-size: 30px;
+    font-size: 40px;
 }
 #wel{
     font-family: 'Franklin Gothic Medium';
@@ -167,13 +238,83 @@ p.exp{
   color: white;
 }
 a{
-    color: black;
-    font-size: 30px;
+    font-family: "eutenia";
+    color: blue;
+    font-size: 40px;
+}
+a.nav-link{
+    color: burlywood;
+    font-family: "eutenia";
+    font-size: 40px;
+}
+#mi{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
+}
+#goal{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
+}
+#ms{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
+}
+#tr{
+    color: blue;
+    font-family: "eutenia";
+    font-size:50px;
+}
+#car{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
+}
+#jov{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
+}
+#cto{
+    color: blue;
+    font-family: "eutenia";
+    font-size: 50px;
 }
 #cont{
+    font-family: "eutenia";
+    font-size: 50px;
     text-align: center;
     background-color: red;
 }
 #drop{
-    background-color: blue;
+    color: black;
+    align-content: right;
+    background-color: rgba(255, 243, 81, 0.898);
+}
+#two{
+    text-align: center;
+    font-family: "BrockScript";
+    font-size: 80px;
+}
+#lang{
+    font-family: "BrockScript";
+    font-size: 60px;
+}
+p.stu{
+    font-family: "eutenia";
+    font-size: 30px;
+}
+#fin{
+    font-family: "scriptin";
+    font-size: 80px;
+}
+h5{
+    font-size: 40px;
+}
+#asu{
+    align-content: center;
+    width: 700px;
+    height: 250px;
 }
